@@ -1,4 +1,7 @@
 var Course = require('../models/course');
+var User = require('../models/user');
+
+var async = require('async');
 
 // Using app as the param, we can pass this file back to express
 
